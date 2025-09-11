@@ -5,24 +5,26 @@ import java.util.Scanner;
 public class basicsOfArray{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
       // Initialize array
 
-//        int[] array = {10,20,30,40,50};
-//        System.out.println(array[0]);
-//        System.out.println(array[1]);
-//        System.out.println(array[2]);
-//        System.out.println(array[3]);
-//        System.out.println(array[4]);
+        int[] array = {10,20,30,40,50};
+        System.out.println(array[0]);
+        System.out.println(array[1]);
+        System.out.println(array[2]);
+        System.out.println(array[3]);
+        System.out.println(array[4]);
+
 
         // initialize empty array
 
-//        int[] arr = new int[5];
-//          arr[0] = 10;
-//          arr[1] = 20;
-//          arr[2] = 30;
-//          arr[3] = 40;
-//          arr[4] = 50;
-//        System.out.println(arr[1]);
+        int[] arr = new int[5];
+          arr[0] = 10;
+          arr[1] = 20;
+          arr[2] = 30;
+          arr[3] = 40;
+          arr[4] = 50;
+        System.out.println(arr[1]);
 
         //input output of an array
 
@@ -42,13 +44,7 @@ public class basicsOfArray{
         }
 
 
-
-
-
-
-
-
-
     }
 
 }
+//basics of an array
