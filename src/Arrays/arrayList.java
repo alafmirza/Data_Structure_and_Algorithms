@@ -36,7 +36,10 @@ public class arrayList {
             j--;
 
         }
-        System.out.println(arr);
+        //print single element in arralist
+        for (int e : arr){
+            System.out.print(" "+e);
+        }
 
 
     }
