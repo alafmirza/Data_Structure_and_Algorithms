@@ -13,27 +13,8 @@ public class Bubble_sort {
 
         //bubble sort approach 1
 
-//        for(int i=0;i<n-1;i++) {
-//            for (int j = 0; j < n-1-i; j++) {  //count of lopp j
-//                if (arr[j] > arr[j + 1]) {
-//                    int temp = arr[j];
-//                    arr[j] = arr[j + 1];
-//                    arr[j + 1] = temp;
-//                }
-//            }
-//        }
-         // approach 2
-
         for(int i=0;i<n-1;i++) {
-            boolean flag = true;
-            for(int j=0;j<n-1;j++){                // check array is sorted or not
-                if(arr[j] > arr[j+1]){
-                    flag = false;
-                    break;                          //if not sorted  move down code
-                }
-                if (flag) break;                     // if sort break 1 loop
-            }
-            for (int j = 0; j < n-1-i; j++) {  //
+            for (int j = 0; j < n-1-i; j++) {  //count of lopp j
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
@@ -42,8 +23,43 @@ public class Bubble_sort {
             }
         }
         print(arr);
+        System.out.println();
+         // approach 2
+
+        for(int i=0;i<n-1;i++) {
+            boolean flag = true;
+            for (int j = 0; j < n-1-i; j++) {  //
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                    flag =false;
+                }
+                if(flag) break;
+            }
+        }
+        print(arr);
+        System.out.println();
+
+        // optimised way
 
 
+
+        for(int i=0;i<n-1;i++) {
+            int swap = 0;
+            for (int j = 0; j < n-1-i; j++) {  //
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                    swap++;
+
+                }
+                if(swap==0) break;
+
+            }
+        }
+                 print(arr);
 
 
     }
