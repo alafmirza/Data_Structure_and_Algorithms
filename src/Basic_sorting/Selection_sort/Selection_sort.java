@@ -1,4 +1,4 @@
-package Basic_sorting;
+package Basic_sorting.Selection_sort;
 
 public class Selection_sort {
     public static void main(String[] args) {
