@@ -34,4 +34,5 @@ public class AddOne {
         //reverse array list
         Collections.reverse(list);
         System.out.println(list);
+
 }}
