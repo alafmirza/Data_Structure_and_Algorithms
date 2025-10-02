@@ -10,8 +10,8 @@ public class AddOne {
         Scanner Sc = new Scanner(System.in);
         System.out.println("enter size");
         int n = Sc.nextInt();
-        int[] arr = new int[n];
         System.out.println("enter elements ");
+        int[] arr = new int[n];;
         for (int i=0;i<n;i++){
             arr[i] = Sc.nextInt();
         }
