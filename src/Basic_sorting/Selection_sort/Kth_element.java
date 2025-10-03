@@ -8,7 +8,7 @@ public class Kth_element {
         for(int i=0;i<k;i++){
             int min = Integer.MAX_VALUE;
             int mindex = -1;
-            for(int j=i;j<k;j++){
+            for(int j=i;j<n;j++){
                 if(arr[j]<min){
                     min = arr[j];
                     mindex = j;
@@ -18,7 +18,9 @@ public class Kth_element {
             arr[i] = arr[mindex];
             arr[mindex] = temp;
         }
-        System.out.println("Kth element is " +arr[k-1]);
+      for(int e : arr){
+          System.out.print(" "+e);
+      }
 
 
     }
