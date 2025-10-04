@@ -1,4 +1,4 @@
-package Basic_sorting;
+package Basic_sorting.InsertionSort;
 
 public class insertion_sort {
     public static void main(String[] args) {
