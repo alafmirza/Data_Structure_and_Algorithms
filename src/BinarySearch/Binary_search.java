@@ -9,7 +9,7 @@ public class Binary_search {
         int hig = n-1;
         int target = 28;
         boolean flag = false;
-        while(low<hig){
+        while(low<=hig){
             int mid = (low+hig)/2;
             if(arr[mid] > target){
                 hig = mid-1;
