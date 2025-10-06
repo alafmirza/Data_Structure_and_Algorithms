@@ -20,6 +20,7 @@ public class Binary_search {
          else if(arr[mid] == target){
                 System.out.println("Element present at index of "+mid);
                 break;
+
             }
 
         }
