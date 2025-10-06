@@ -33,8 +33,6 @@ public class Fist_Last_occur {
         int hig1= n-1;
         int target1 = 7;
         int index1 = -1;
-        boolean flag = false;
-
         while(low1 <= hig1){
             int mid = (low1+hig1)/2;
             if(arr[mid] > target1){
