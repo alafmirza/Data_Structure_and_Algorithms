@@ -11,11 +11,11 @@ public class SearchIn_rotateArray {
             int mid = (low+hig)/2;
             if(arr[mid]==target) {System.out.println("element at index "+mid); break;}
             //left side
-            else if(arr[low] < arr[mid]){
+            else if(arr[low] <= arr[mid]){
                 if(arr[low]<=target && target < arr[mid]) hig = mid-1;
                 else low = mid+1;
             }
-            else if (arr[mid] < arr[hig]) {
+            else if (arr[mid] <= arr[hig]) {
                 if(arr[mid] < target && target <= arr[hig]) low = mid+1;
                 else hig = mid-1;
             }
