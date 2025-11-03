@@ -2,7 +2,7 @@ package Strings;
 
 public class Method_Strings {
     public static void main(String[] args) {
-        String str = "Alaf Baig ";
+        String str = "Alaf Baig";
         String gtr = "Alaf Mirza";
         //charAt
         char ch = str.charAt(3);
@@ -40,6 +40,9 @@ public class Method_Strings {
         //concat
         String concat = str.concat(gtr);
         System.out.println(concat);
+
+        System.out.println(str.startsWith("Ala"));
+        System.out.println(str.endsWith("ig"));
     }
 
 }
