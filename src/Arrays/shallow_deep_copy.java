@@ -17,7 +17,7 @@ public class shallow_deep_copy {
         y[0] = 500;
 
 
-        System.out.println(arr[0]);
+        System.out.println(x[0]);
         System.out.println(y[0]);
 
 
